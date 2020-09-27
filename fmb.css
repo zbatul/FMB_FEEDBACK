@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "myFont";
+    src: url("LindenHill-Italic-webfont.ttf");
+}
+
+body {
+    background-color: #d4f9cf;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 0em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    background-color: pink;
+    padding: 0.25em;
+    border: 6px solid purple;
+    border-radius: 10px;
+    position: fixed;
+    top: 0px;
+    width: 80vw;
+    box-sizing: border-box;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+.Menu {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+main {
+    background-color: whitesmoke;
+    margin-bottom: 1em;
+    margin-top: 84px;
+    padding-top: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 1em;
+    border-left: 6px solid purple;
+    border-right: 6px solid purple;
+    border-bottom: 6px solid purple;
+    border-radius: 10px;
+    width: 80vw;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "myFont";
+    color: purple;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: "myFont";
+    color: purple;
+    font-size: 30px;
+}
+
+section.first {
+    display: inline-block;
+}
+
+li.active {
+    display: table;
+    background-color: darkgrey;
+}
+
+a:visited {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: antiquewhite;
+}
+
+input:invalid {
+    border: 2px solid red;
+    background-color: pink;
+}
+
+input:valid {
+    border: 2px solid green;
+    background-color: greenyellow;
+}
+
+.FormDiv {
+    background-color: #d4f9cf;
+    display: grid;
+    grid-template-columns: 20em 30rem;
+    grid-row-gap: 1em;
+    grid-column-gap: 0.5em;
+    border: 3px dotted red;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.FormDiv label {
+    justify-self: end;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
