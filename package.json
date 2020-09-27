@@ -1,0 +1,27 @@
+{
+  "name": "fmb_feedback",
+  "version": "1.0.0",
+  "description": "feedback \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Duploading feedbacks and analyzing them",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zbatul/FMB_FEEDBACK.git"
+  },
+  "keywords": [
+    "fmb",
+    "feedback"
+  ],
+  "author": "Batul Zamin, Mustafa Husaini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zbatul/FMB_FEEDBACK/issues"
+  },
+  "homepage": "https://github.com/zbatul/FMB_FEEDBACK#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
